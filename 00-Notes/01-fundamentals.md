@@ -91,18 +91,52 @@
     ```
 
 ## Boolean Logic
+- AND
+
+    |  AND   | True  | False |
+    |  ----  | ----  | ----  |
+    | True   | True  | False |
+    | False  | False | False |
+
+- OR
+
+    |  OR    | True  | False |
+    |  ----  | ----  | ----  |
+    | True   | True  | True  |
+    | False  | True  | False |
 
 
 ## Logical Operators
-
+- AND: &&
+- OR: ||
+- NOT: !
 
 ## The Switch Statement
 
+```javascript
+switch(variable) {
+    case 'value1':
+        // ...
+        break;
+    case 'value2':
+        // ...
+        break;
+    default:
+        // ...
+}
+```
 
 ## Statements and Expressions
-
+- An expression is any valid unit of code that resolves to a value
+- 陳述式 (Statements) 一定會執行一些動作，但是不會回傳值或結果，常見的陳述式像是：
+    - 流程控制 (Control flow)：if…else, switch, break
+    - 變數宣告 (Declarations)： var, let, const
+    - 函式宣告與類別 (Functions and classes)：function, async function, return, class
+    - 迭代 (Iteration)：for, do…while, for…in, for…of, while
+    - 其他：debugger, export, import, label
 
 ## The Conditional (Ternary) Operator
 
-
-## JavaScript Releases: ES5, ES6+, and ESNext
+```javascript
+ condition ? exprIfTrue : exprIfFalse
+```
